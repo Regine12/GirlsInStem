@@ -4,53 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Contact_Us</title>
 </head>
 <body>
-    
-            <div class="logo">
-              <a href="#">  <img  src="PAGE.png" style="height: 60px; width: 80px;" alt="This is a logo" ></a>
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-chevron-up scrolltop__icon"></i>
+      </a>
+  
+      <!--========== HEADER ==========-->
+      <header class="l-header" id="header">
+        <nav class="nav bd-container">
+          <img src= "assets/img/LOGO.jpg" alt="logo" width="30px" height="40px" border-radius="50%">
+          <a href="#" class="nav__logo">
+            GIRLS In STEM</a>
+  
+  
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#home" class="nav__link active-link">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About GIS</a>
+              </li>
+              <li class="nav__item">
+                <a href="#services" class="nav__link">Opportunities</a>
+              </li>
+              <li class="nav__item">
+                <a href="#team" class="nav__link">Team</a>
+              </li>
+              <li class="nav__item">
+                <a href="#blog" class="nav__link">About STEM</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact Us</a>
+              </li>
+  
+              <li>
+                <i class="bx bx-moon change-theme" id="theme-button">Theme</i>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </nav>
+      </header>
+
+        <!--main-->
+        <main id="contact-form" class="contact-form">
+           <form action="#">
+              <div class="title">
+                <h1 style="margin-bottom: 1rem;">Contact Us</h1>
+              </div>
+               <div class="form-control">
+                   <input type="text" placeholder="Enter Your Name">
+               </div>
+               <div class="form-control">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="form-control">
+                    <input type="number" placeholder="Phone Number">
+                </div>
+                <div class="form-control">
+                    <textarea name="message" id="message" placeholder="Write Message" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-control">
+                    <button type="submit">SUBMIT</button>
+                </div>
+           </form>
+        </main>
+
+        <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+          <div class="footer__content">
+            <a href="#" class="footer__logo">Girls In STEM</a>
+            <span class="footer__description">Innovations and You</span>
+            <div>
+              <a href="#" class="footer__social"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a href="#" class="footer__social"
+                ><i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="#" class="footer__social"
+                ><i class="bx bxl-twitter"></i
+              ></a>
             </div>
-            <nav>
-                <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About STEM</a></li>
-        <li><a href="#">Opportunities</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Our Team</a></li>
-        <li><a href="#">Contact Us</a></li>
-    </ul>
-    </nav>
-
-
-<div class="Container">
-    <div style="text-align: center">
-    <h2>Contact Us</h2>
-    </div>
-    <div class="row">
-     <div class="column">
-     <form action="actionpage.php">
-     <p><label for="fname">First Name</label>
-    <input type="text" id="Fname" name="firstname" placeholder="Your first Name..."></p>
-    <p><label for="Lname">Last Name</label>
-    <input type="text" id="Lname" name="lastname" placeholder="Your Last Name..."></p>
-    <p><label for="Country">Email</label>
-    <input type="text" id="Email" name="Email" placeholder="Your Email..."></p>
-    <p><label for="Subject">Write Your Message</label></p>
-    <textarea name="Subject" id="Subject" placeholder="Write Something..."></textarea></p>
-    <input type="Submit" value="Submit">
-    </form>
-    </div>
-    </div>
-    </div>
-    </body>
-    <div class="footer">
-    <i class="fa fa-instagram" id="icons"></i>
-    <i class="fa fa-facebook" id="icons"></i>
-    <i class="fa fa-twitter" id="icons"></i>
-    <i class="fa fa-whatsapp" id="icons"></i>
-        
-</div>
+          </div>
+  
+          <div class="footer__content">
+            <h3 class="footer__title">Activities</h3>
+            <ul>
+              <li><a href="#" class="footer__link">Research</a></li>
+              <li><a href="#" class="footer__link">Implementation</a></li>
+              <li><a href="#" class="footer__link">Development</a></li>
+              <li><a href="#" class="footer__link">Join Us Today</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__content">
+            <h3 class="footer__title">Information</h3>
+            <ul>
+              <li><a href="#" class="footer__link">Girls In STEM</a></li>
+              <li><a href="#" class="footer__link">Contact us</a></li>
+              <li><a href="#" class="footer__link">Privacy policy</a></li>
+              <li><a href="#" class="footer__link">Terms of services</a></li>
+            </ul>
+          </div>
+  
+          <div class="footer__content">
+            <h3 class="footer__title">Address</h3>
+            <ul>
+              <li>Buea - Cameroon</li>
+              <li>Afritech Hub</li>
+              <li>+237 - 680 - 712 - 509</li>
+              <li>girlsin.stem@email.com</li>
+            </ul>
+          </div>
+        </div>
+  
+        <p class="footer__copy">&#169; Afritech _Hub_G5. All right reserved</p>
+      </footer>
+  
+      <!--========== SCROLL REVEAL ==========-->
+      <script src="https://unpkg.com/scrollreveal"></script>
+  
+      <!--========== MAIN JS ==========-->
+      <script src="assets/js/main.js"></script>
+  
+</body>
 </html>
+
+

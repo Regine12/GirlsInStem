@@ -58,6 +58,7 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -499,19 +500,98 @@ img {
 }
 
 /*---------AboutUS-----------*/
+#about-sec {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  padding-top: 5rem;
+}
+
+#us{
+  box-shadow: inset 0 0 10px 1px #ccc;
+}
 .about{
   margin-top: 10vh;
-  background: var(--container-color);
+  background: transparent;
+  padding: 1.5rem;
+  border-radius: 2px;
   border-radius: 0.5rem;
-  box-shadow: var(--text-color-light);
   padding: 2rem;
   text-align: center;
   align-content: center;
   border-color: transparent;
+  width: 900px;
+}
+
+@media screen and (max-width: 950px) {
+  .about {
+    width: 100%;
+  }
 }
 /*---------Group-----------*/
 .group{
   margin-top: 15vh;
+}
+
+/* contact form styles */
+#contact-form {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  padding-top: 8rem;
+}
+
+#contact-form form {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+}
+
+@media screen and (max-width: 650px) {
+  #contact-form form {
+    width: 100%;
+  }
+}
+
+#contact-form form .form-control {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#contact-form form button {
+  padding: 0.7rem 1.5rem;
+  background: #d1095d;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 3px;
+  border: none;
+}
+
+#contact-form form .form-control input,
+#contact-form form .form-control textarea {
+  padding: 0.7rem 1rem;
+  color: #d1095d;
+  font-size: 17px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+}
+
+#contact-form form .form-control textarea {
+  resize: vertical;
 }
 
 /*========== FOOTER ==========*/

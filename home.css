@@ -16,13 +16,20 @@ h1{
     padding-right:30px;
     
 }
-.image{
-    float: right;
-}
-/* div{
-   
+/* .image{
     float: right;
 } */
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
 #img1{
     padding-left: 180px;
 }  
@@ -30,19 +37,13 @@ h1{
     height: 100px;
     width:100px ;
 } 
-nav{
-   
-    background: black;
-width: 100%;
-overflow: hidden;
 
-}
-ul{
+main ul{
     padding: 0;
     margin: 0  0  0  150px;
     list-style: none;
 }
-li{
+main li{
    float:left;
     text-align: center;
 }
@@ -57,36 +58,13 @@ margin-left: 10px;
 align-content: center;
 margin-bottom: 15px;
 }
-
-nav a{
-    width: 100px;
-    color: #ffffff;
-    padding: 20px  15px;
-  display: block;
-  text-decoration: none;
-  text-align: right;
-}
-nav a:hover{
-    background-color:pink;
-    color: #000000;
-    
-}
-.footer{
-    background-color: gray;
-    text-align: center;
-    color: #ffffff;
-    padding: 60px;
-    width: 100%;
-    margin: 0%;
-}
 #icons{
     color: aquamarine;
     padding: 20px;
 }
-.qoute{
+.quote{
     clear: left;
     text-align: center;
-    padding-top: 200px;
     /* padding-right: 150px; */
 }
 #about{
@@ -96,4 +74,5 @@ nav a:hover{
     
     
     }
+
 /* }l STEMClubs@stem.org.uk. https://www.stem.org.uk/ https://stemforgirls.ca/ http://www.greenlightforgirls.org/ */
